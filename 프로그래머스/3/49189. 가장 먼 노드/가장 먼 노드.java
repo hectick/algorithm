@@ -16,11 +16,11 @@ class Solution {
             
             List<Integer> list1 = map.get(a);
             list1.add(b);
-            map.put(a, list1);
+            //map.put(a, list1);
             
             List<Integer> list2 = map.get(b);
             list2.add(a);
-            map.put(b, list2);
+            //map.put(b, list2);
         }
         
         dfs(1);
